@@ -23,7 +23,6 @@ section {
   font-family: Palatino, "Palatino Linotype";
   font-size: 1em;
   color: black;
-  display: none;
 }
 
 section:target {
