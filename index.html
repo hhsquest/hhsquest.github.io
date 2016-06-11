@@ -9,8 +9,25 @@
 <body>
   
 <div class="header">Welcome to HHS!</div>
-  
+
+<div class="container">
+<div class="story">
   <section id="000">
+    <script>
+      confirm("Are you ready to begin?")
+      var userName = prompt("What is your name?")
+        console.log("Hello, " + userName + "!")
+      var userAge = prompt("How old are you?")
+      var checkAge = function(userAge) {
+      if(userAge >= 13) {
+        console.log("Welcome to high school!");
+      }
+      else {
+        console.log("Are you old enough to be in high school?");
+      }
+    };
+    </script>
+    <p>Good morning!</p>
     <p>You are an incoming 9th grade student. It is your first day as a high school student.<p>
     <a href="#001">Check your schedule.</a>
   </section>
@@ -34,6 +51,8 @@
   <section id="004">
     <p>You find room 703, but you're already nearly five minutes late. Many other students are just arriving too. The teacher only says that it's okay because it's the first day of school, but you should make an effort to be on time in the future.</p>
   </section>
+</div>
+</div>
 
 </body>
 </html>
