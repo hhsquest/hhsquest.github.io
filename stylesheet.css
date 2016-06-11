@@ -1,0 +1,15 @@
+div {
+  border: black solid 2px;
+  width: 100%;
+  border-radius: 5px;
+  font-family: Palatino, "Palatino Linotype";
+}
+
+.header {
+  background-color: #BCD2EE;
+  color: black;
+}
+
+.main {
+  background-color: light pink;
+}
