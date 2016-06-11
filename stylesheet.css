@@ -5,11 +5,8 @@ div {
   font-family: Palatino, "Palatino Linotype";
 }
 
-.header {
-  background-color: #BCD2EE;
+section {
+  font-family: Palatino, "Palatino Linotype";
+  font-size: 1em;
   color: black;
-}
-
-.main {
-  background-color: light pink;
 }
