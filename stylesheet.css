@@ -2,11 +2,24 @@ div {
   border: black solid 2px;
   width: 100%;
   border-radius: 5px;
+  text-align: center;
+  font-size: 2.5em;
   font-family: Palatino, "Palatino Linotype";
+  background-color: #b3daff;
 }
 
 section {
   font-family: Palatino, "Palatino Linotype";
   font-size: 1em;
   color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #0033cc;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #999999;
 }
