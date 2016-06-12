@@ -13,28 +13,14 @@ div {
 
 .container {
   background-color: #00b8e6;
+  width: 100%;
 }
 
 .story {
   background-color: #e6ffff;
   width: 75%;
   margin: auto;
-}
-
-.story > section {
-  display: none;
-}
-
-.story > section:target {
-  display: block;
-}
-
-#000 {
-  display: block;
-}
-
-.story > section:target ~ #000 {
-  display: none;
+  padding: 20px 50px 20px 50px;
 }
 
 section {
@@ -53,7 +39,16 @@ a:hover {
   color: #999999;
 }
 
-a:visited {
-  text-decoration: none;
-  color: #4d4d4d;
+.story > section {
+  display: none;
+  white-space: pre-line;
+}
+.story > section:target {
+  display: block;
+}
+.story > .intro {
+  display: block;
+}
+.story > section:target ~ .intro {
+  display: none;
 }
