@@ -17,16 +17,30 @@ div {
 
 .story {
   background-color: #e6ffff;
+  width: 75%;
+  margin: auto;
+}
+
+.story > section {
+  display: none;
+}
+
+.story > section:target {
+  display: block;
+}
+
+.story > #000 {
+  display: block;
+}
+
+.story > section:target ~ #000 {
+  display: none;
 }
 
 section {
   font-family: Palatino, "Palatino Linotype";
   font-size: 1em;
   color: black;
-}
-
-section:target {
-  display: block;
 }
 
 a {
