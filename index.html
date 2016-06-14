@@ -14,14 +14,23 @@
 <div class="story">
   
   <section id="000">
-    <script type="text/javascript">
-      confirm("Are you ready to begin?");
-      var userName = prompt("What is your name?");
-        console.log("Hello, " + userName + "!");
-        return "Hello, " + userName + "!";
-      var userAge = prompt("How old are you?");
-    </script>
-  
+  <script type="text/javascript">
+  var userName = prompt("What is your name?");
+  var greeting = function(userName) {
+    console.log ("Hello, " + userName + "!")
+    return "Hello, " + userName + "!";
+  greeting(userName);
+  var userAge = prompt("How old are you?");
+  var checkAge = function(userAge) {
+    if(numHours >= 13) {
+    	 return "Congrats on finishing middle school. Welcome to high school!";
+   }
+    else {
+    	 return "Are you old enough to be in high school?";
+    }
+  };
+  checkAge(userAge);
+  </script>
     <p>Good morning!</p>
     <p>You are an incoming 9th grade student. Today is your first day as a high school student.<p>
     <a href="#001">Check your schedule.</a>
@@ -112,18 +121,7 @@
   </section>
   
   <section id="014">
-  <script type="text/javascript">
-    var numHours = prompt("How many hours of sleep did you get after finishing that paper?");
-    var sleepCheck = function(numHours) {
-    if(numHours >= 6) {
-    	 return "Wow! Either you didn't try at all or you actually worked on it before the week it was due!";
-   }
-    else {
-    	 return "You really should think about planning your time better. Sleep is important! Don't you want to grow taller?";
-    }
-  };
-  sleepCheck(numHours);
-  </script>
+
   <a href="#016">Next</a>
   </section>
   
