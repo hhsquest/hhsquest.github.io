@@ -14,7 +14,22 @@
 <div class="story">
   
   <section id="000">
-    <!--put javascript stuff here, see table in journal---> 
+   <script>
+      confirm("Are you ready to begin?")
+      var userName = prompt("What is your name?")
+        return "Hello, " + userName + "!";
+      var userAge = prompt("How old are you?")
+      var checkAge = function(userAge) {
+      if(userAge >= 13) {
+        return "Welcome to high school!";
+      }
+      else {
+       return "Are you old enough to be in high school?";
+      }
+    };
+    checkAge(userAge);
+</script>
+
     <p>Good morning!</p>
     <p>You are an incoming 9th grade student. Today is your first day as a high school student.<p>
     <a href="#001">Check your schedule.</a>
@@ -49,7 +64,7 @@
   <section id="005">
     <p>You struggle and end up arriving at the classroom three minutes late, but the teacher seems unsurprised. She lets everyone know that it’s normal to be late in the beginning, but that eventually you’ll all become used to the building.</p>
     <p>The rest of the day passes by quickly, and soon the last bell rings and ninth period is done. You go to your locker and pack up your belongings.</p>
-    <a href="#006">Go home.</a>
+    <a href="#006">Walk home.</a>
     <a href="#007">Hang out with your friends.</a>
   </section>
   
@@ -61,9 +76,14 @@
   </section>
   
   <section id="007">
-    <p>You find some of your friends from 8th grade and talk with them for a while before </p>
+    <p>You find some of your friends from 8th grade and talk with them for a while, discussing the first day and all of your teachers and new kids you've met. Soon, your friends' parents are arriving to pick them up, and it's only you and one other friend.</p>
+    <a href="#006">Walk home.</a>
+    <a href="#010">Ask for a ride home.</a>
   </section>
   
+  <section id="008">
+    <p>Two hours later, you realize you haven't done anything. It's only the first day of school, though, so you don't have much work besides getting several papers signed and filling out some personal information sheets.</p>
+  </section>
   <section class="intro"><a href="#000">Start</a></section>
   
 </div>
