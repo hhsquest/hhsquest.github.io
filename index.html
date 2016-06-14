@@ -122,10 +122,28 @@
   </section>
   
   <section id="014">
-
-  <a href="#016">Next</a>
+    <p>You start working on the corrections and end up finishing them by the next week.</p>
+    <p>Four weeks later.</p>
+    <p>Your paper is due tomorrow. You ask some of your friends if they've started it, but many of them haven't. In class, some kids are already trying to petition for an extension, but the teacher refuses. Thankfully, you've already mostly finished the paper.</p>
+  <a href="#015">Next</a>
   </section>
   
+  <section id="015">
+    <script type="text/javascript">
+    var numHours = prompt("How many hours of sleep did you get after finishing that paper?");
+    var sleepCheck = function(numHours) {
+    if(numHours >= 6) {
+    	 return "Wow! Either you didn't try at all or you actually worked on it before the week it was due!";
+   }
+    else {
+    	 return "You really should think about planning your time better. Sleep is important! Don't you want to grow taller?";
+    }
+  };
+  sleepCheck(numHours);
+  $(#015).ready(sleepCheck);
+  </script>
+
+  </section>
   
   <section class="intro"><a href="#000">Start</a></section>
   
