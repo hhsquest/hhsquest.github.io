@@ -14,25 +14,14 @@
 <div class="story">
   
   <section id="000">
-   <script>
+    <script type="text/javascript">
       confirm("Are you ready to begin?");
       var userName = prompt("What is your name?");
         console.log("Hello, " + userName + "!");
         return "Hello, " + userName + "!";
       var userAge = prompt("How old are you?");
-      var checkAge = function(userAge) {
-      if(userAge >= 13) {
-        console.log ("Welcome to high school!");
-        return "Welcome to high school!";
-      }
-      else {
-        console.log ("Are you old enough to be in high school?");
-        return "Are you old enough to be in high school?";
-      }
-    };
-   
-</script>
-
+    </script>
+  
     <p>Good morning!</p>
     <p>You are an incoming 9th grade student. Today is your first day as a high school student.<p>
     <a href="#001">Check your schedule.</a>
@@ -110,7 +99,33 @@
   <section id="012">
     <p>When you get home, you open up a new Microsoft Word file and begin typing out the heading. After checking the assignment sheet, you begin looking for evidence to back up your claim. You work on it again two days later, and eventually have two pages done.</p>
     <p>At extra help the next week, you see mostly juniors in the room. You wait until the teacher's done reviewing with the other students and hand her the draft of your essay. </p>
+    <p>After she's done going through your essay and making comments, you thank her and go home to work on your homework. Once you've finished what's due tomorrow, you start reading through her suggestions.</p>
+    <a href="#014">Make the corrections now.</a>
+    <a href="#013">Put it away and do it later.</a>
   </section>
+  
+  <section id="013">
+    <p>Four weeks later.</p>
+    <p>Your paper is due tomorrow. You ask some of your friends if they've started it, but many of them haven't. In class, some kids are already trying to petition for an extension, but the teacher refuses.</p>
+    <p>You go home and quickly finish your homework so you can work on the paper. About a half an hour in, you realize you need a lot more time than you'd expected for it.</p>
+    <a href="#015">How many hours of sleep did you end up getting?</a>
+  </section>
+  
+  <section id="014">
+  <script type="text/javascript">
+    var numHours = prompt("How many hours of sleep did you get after finishing that paper?")
+    var sleepCheck = function(numHours) {
+    if(numHours >= 6) {
+    	 return "Wow! Either you didn't try at all or you actually worked on it before the week it was due!";
+   }
+    else {
+    	 return "You really should think about planning your time better. Sleep is important! Don't you want to grow taller?";
+    }
+  };
+  </script>
+  <a href="#016">Next</a>
+  </section>
+  
   
   <section class="intro"><a href="#000">Start</a></section>
   
